@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regressio Test(failed)">
+    <classes>
+      <class name="in.co.mercurytravels.tests.MercuryTravelTestcases">
+        <methods>
+          <include name="verifyUserLoginWithCorrectCredentials"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+          <include name="verifyNewUserRegistration"/>
+        </methods>
+      </class> <!-- in.co.mercurytravels.tests.MercuryTravelTestcases -->
+    </classes>
+  </test> <!-- Regressio Test(failed) -->
+</suite> <!-- Failed suite [Regression Test Suite] -->
