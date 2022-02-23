@@ -7,7 +7,7 @@ public class MercuryTravelTestcases extends BaseTest{
 	
 	
 	@Test(enabled = true, priority = 1)
-	public void verifyUserLoginWithCorrectCredentials() throws Exception
+	public void verifyUserLoginWithCorrectCredential() throws Exception
 	{
 		String username = "activeproton1525@protonmail.com";
 		String password = "abc@123!-IN!";
@@ -18,6 +18,7 @@ public class MercuryTravelTestcases extends BaseTest{
 		
 		Assert.assertEquals(actualWelcomeText, expectedWelcomeText);
 		homepage.logout();
+		
 	
 	}
 	
